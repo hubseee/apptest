@@ -3,8 +3,8 @@ export UUID=${UUID:-'3f10b421-493f-4a45-814a-7d79dcc92086'} # 哪吒v1,在不同
 export NEZHA_SERVER=${NEZHA_SERVER:-''}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
 export NEZHA_PORT=${NEZHA_PORT:-''}           # v1哪吒不要填写这个,v0哪吒agent端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
 export NEZHA_KEY=${NEZHA_KEY:-''}             # v1的NZ_CLIENT_SECRET或v0的agent密钥
-export ARGO_DOMAIN=${ARGO_DOMAIN:-'elys.welll.dpdns.org'}         # 固定隧道域名,留空即启用临时隧道
-export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"1cb5ed66b793e95af2d033e597e8a83e","TunnelSecret":"QSntGTizougDLy/XvUsFpyQ/h7Y8C0sJl7hklYl8SM8=","TunnelID":"e57f9f2e-6bc5-46a7-b2b3-600cbddd9f9a","Endpoint":""}'}             # 固定隧道token或json,留空即启用临时隧道
+export ARGO_DOMAIN=${ARGO_DOMAIN:-''}         # 固定隧道域名,留空即启用临时隧道
+export ARGO_AUTH=${ARGO_AUTH:-''}             # 固定隧道token或json,留空即启用临时隧道
 export CFIP=${CFIP:-'www.visa.com.tw'}        # argo节点优选域名或优选ip
 export CFPORT=${CFPORT:-'8443'}                # argo节点端口 
 export NAME=${NAME:-'Ely'}                    # 节点名称  
